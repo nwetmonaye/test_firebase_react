@@ -147,7 +147,7 @@ export default function Dashboard() {
       </section>
 
       <section className="card full-width">
-        <h2>Product Item List</h2>
+        <h2>Product Item List!</h2>
         {error ? <p className="banner error">{error}</p> : null}
         {loading ? (
           <p className="muted">Loading...</p>
